@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">931394392876-45tv2sp7eatnocjhmi0fq8bkb0ai0ag2.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://coursepal-b4b1a.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">931394392876</string>
+    <string name="google_api_key" translatable="false">AIzaSyCjSSyPdJvbvuX18RClt0t_FuqHOI_Jadg</string>
+    <string name="google_app_id" translatable="false">1:931394392876:android:c84807d18f982544</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCjSSyPdJvbvuX18RClt0t_FuqHOI_Jadg</string>
+    <string name="google_storage_bucket" translatable="false">coursepal-b4b1a.appspot.com</string>
+    <string name="project_id" translatable="false">coursepal-b4b1a</string>
+</resources>

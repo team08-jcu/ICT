@@ -1,0 +1,4 @@
+#Mon Jun 03 22:19:59 AEST 2019
+base.0=C\:\\Users\\rahul\\Desktop\\Coursepal-20190526T211706Z-001\\Coursepal-20190526T211706Z-001\\Coursepal\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\82
+path.0=classes.dex
+renamed.0=classes.dex

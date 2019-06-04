@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <EditText
+        android:id="@+id/et_email"
+        style="@style/viewCustom"
+        android:layout_marginTop="106dp"
+        android:ems="10"
+        android:hint="@string/etEmail"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/et_password"
+        style="@style/viewCustom"
+        android:layout_below="@id/et_email"
+        android:ems="10"
+        android:hint="@string/etPassword"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/tv_forgot_password"
+        style="@style/viewCustom"
+        android:layout_below="@id/et_password"
+        android:clickable="true"
+        android:gravity="center_horizontal"
+        android:text="Forgot Password?"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_login"
+        style="@style/viewCustom"
+        android:layout_below="@id/tv_forgot_password"
+        android:background="@android:color/holo_red_light"
+        android:text="@string/login_title"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:textColor="@android:color/white"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/btn_register_account"
+        style="@style/viewCustom"
+        android:layout_width="251dp"
+        android:layout_height="20dp"
+        android:layout_below="@id/btn_login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/white"
+        android:text="Don't have an account? Sign-Up"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textStyle="bold" />
+
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/t_view"
+        android:layout_width="251dp"
+        android:layout_height="20dp"
+        android:layout_below="@id/btn_register_account"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="55dp"
+        android:text="         Login with Facebook or Google"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textStyle="bold" />
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/google_login"
+        style="@style/viewCustom"
+        android:layout_width="251dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/t_view"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500dp"
+        android:background="@drawable/googlelogin" />
+
+    <Button
+        android:id="@+id/fb_login"
+        style="@style/viewCustom"
+        android:layout_width="251dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/google_login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="259dp"
+        android:background="@drawable/facebooklogin" />
+
+</RelativeLayout>

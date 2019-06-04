@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".NewActivity1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="false"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="false"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/profilepic" />
+
+    <TextView
+        android:id="@+id/textviewName"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/imageView4"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Test User"
+        android:textSize="21sp"/>
+
+    <TextView
+        android:id="@+id/textAppliedCollege"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/textviewName"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Applied Universities"
+        android:textSize="21sp"/>
+
+    <TextView
+        android:id="@+id/textBookmarks"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/textAppliedCollege"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Bookmarks"
+        android:textSize="21sp"/>
+
+    <TextView
+        android:id="@+id/testpendingapp"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/textBookmarks"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Pending Applications"
+        android:textSize="21sp" />
+
+    <TextView
+        android:id="@+id/textRecentactivity"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/testpendingapp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Recent Activity"
+        android:textSize="21sp"/>
+</RelativeLayout>
