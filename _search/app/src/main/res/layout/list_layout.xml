@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context=".MainActivity"
+        android:layout_height="wrap_content">
+
+    <TextView
+            android:text="Bachelor of Games and Interactive Environment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/course_name" android:layout_marginTop="20dp"
+            android:layout_marginStart="40dp" android:layout_marginEnd="40dp" android:textSize="18sp"
+            android:fontFamily="@font/nunito_bold"/>
+    <TextView
+            android:text="QUT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/university" android:layout_below="@id/course_name"
+            android:layout_alignRight="@id/course_name" android:layout_toEndOf="@id/locationLogo"
+            android:paddingLeft="10dp"/>
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="19dp" app:srcCompat="@drawable/location_logo" android:id="@+id/locationLogo"
+            android:layout_below="@id/uniLogo" android:layout_alignStart="@id/course_name"
+            android:layout_alignEnd="@id/uniLogo"/>
+    <ImageView
+            android:layout_width="23dp"
+            app:srcCompat="@drawable/uni_logo" android:id="@+id/uniLogo"
+            android:layout_below="@id/course_name"
+            android:layout_height="19dp" android:layout_alignStart="@id/course_name"/>
+    <TextView
+            android:text="Garden's Point Campus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/location" android:layout_alignEnd="@id/university"
+            android:layout_alignStart="@id/university" android:layout_below="@id/university"
+            android:paddingLeft="10dp"/>
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="19sp" app:srcCompat="@drawable/award_logo" android:id="@+id/awardLogo"
+            android:layout_below="@id/locationLogo" android:layout_alignStart="@id/locationLogo"
+            android:layout_alignEnd="@id/locationLogo"/>
+    <TextView
+            android:text="Bachelors"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/award" android:layout_below="@id/location"
+            android:layout_alignStart="@id/university" android:layout_alignEnd="@id/university"
+            android:paddingLeft="10dp"/>
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="19dp" app:srcCompat="@drawable/duration_logo" android:id="@+id/imageView4"
+            android:layout_below="@id/awardLogo" android:layout_alignStart="@id/awardLogo"
+            android:layout_alignEnd="@id/awardLogo"/>
+    <TextView
+            android:text="3 years"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/duration" android:layout_below="@id/award"
+            android:layout_alignEnd="@id/course_name" android:layout_alignStart="@id/award" android:paddingLeft="10dp"/>
+</RelativeLayout>
